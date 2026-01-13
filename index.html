@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Films</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <h1>vibe films</h1>
+            <div id="suggestion-chips" class="suggestion-chips"></div>
+            <input type="text" id="emotion-input" placeholder="how are you feeling?" autofocus>
+            <button id="find-btn">find films</button>
+        </div>
+
+        <div id="results" class="results hidden">
+            <div id="movies-grid" class="movies-grid"></div>
+            <button id="regenerate-btn" class="regenerate-btn">regenerate</button>
+        </div>
+    </div>
+
+    <div id="movie-modal" class="modal">
+        <div class="modal-content">
+            <span id="modal-close" class="modal-close">&times;</span>
+            <div class="modal-body">
+                <div id="modal-poster" class="modal-poster"></div>
+                <div class="modal-info">
+                    <h2 id="modal-title"></h2>
+                    <div class="modal-meta">
+                        <span id="modal-year"></span>
+                        <span class="separator">•</span>
+                        <span id="modal-director"></span>
+                    </div>
+                    <p id="modal-description"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
