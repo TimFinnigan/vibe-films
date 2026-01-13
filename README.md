@@ -5,12 +5,13 @@ A sleek, minimalist movie recommender web app that suggests films based on your 
 ## Features
 
 - **Emotion-based recommendations**: Type how you're feeling and get 4 curated film suggestions
+- **Multiple vibe support**: Combine vibes like "happy and nostalgic" or "sad but cozy" for nuanced recommendations
 - **9 distinct vibes**: happy, sad, anxious, melancholic, energetic, nostalgic, contemplative, weird, cozy
 - **Quick vibe selection**: Click suggestion chips for instant recommendations
-- **144 curated films**: 15-18 carefully selected movies per vibe category
+- **237 curated films**: 25-30 carefully selected movies per vibe category
 - **Movie details**: Click any film to see year, director, and description
 - **Smooth animations**: Elegant fade-in effects and transitions
-- **Regenerate options**: Get fresh suggestions for the same vibe
+- **Regenerate options**: Get fresh suggestions for the same vibe(s)
 - **Responsive design**: Works beautifully on all screen sizes
 
 ## How to Use
