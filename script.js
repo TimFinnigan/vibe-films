@@ -19,17 +19,17 @@ const movieDatabase = {
         { title: "The Intouchables", year: 2011, director: "Olivier Nakache", poster: "https://image.tmdb.org/t/p/w300/4mFI8ugCpdUTZHTdxBY2IFRvHpC.jpg", description: "An unlikely friendship develops between a paralyzed aristocrat and his caretaker." },
         { title: "School of Rock", year: 2003, director: "Richard Linklater", poster: "https://image.tmdb.org/t/p/w300/bpHv9Cy2fJWyKv8T71Vvacq6ydM.jpg", description: "A wannabe rock star poses as a substitute teacher and forms a band with his students." },
         { title: "Booksmart", year: 2019, director: "Olivia Wilde", poster: "https://image.tmdb.org/t/p/w300/micaVOa1UZsdzs4fKGA67ZMGOzc.jpg", description: "Two academic overachievers realize they should have worked less and played more on their last day of high school." },
-        { title: "The Apartment", year: 1960, director: "Billy Wilder", poster: "", description: "A charming romantic comedy about a man who lends his apartment to his bosses for affairs." },
-        { title: "Singin' in the Rain", year: 1952, director: "Gene Kelly", poster: "", description: "A joyous musical celebrating the transition from silent films to talkies in Hollywood." },
-        { title: "Roman Holiday", year: 1953, director: "William Wyler", poster: "", description: "A princess escapes her duties for a day of adventure with a charming reporter in Rome." },
-        { title: "Some Like It Hot", year: 1959, director: "Billy Wilder", poster: "", description: "Two musicians disguise themselves as women to escape gangsters in this hilarious comedy." },
-        { title: "Mamma Mia!", year: 2008, director: "Phyllida Lloyd", poster: "", description: "A bride-to-be invites three men to her wedding, each possibly being her father, in this ABBA-fueled musical." },
-        { title: "Legally Blonde", year: 2001, director: "Robert Luketic", poster: "", description: "A sorority girl follows her ex to Harvard Law and discovers her own potential." },
-        { title: "The Goonies", year: 1985, director: "Richard Donner", poster: "", description: "A group of kids search for pirate treasure to save their homes from foreclosure." },
-        { title: "Mary Poppins", year: 1964, director: "Robert Stevenson", poster: "", description: "A magical nanny brings joy and wonder to a London family." },
-        { title: "Toy Story", year: 1995, director: "John Lasseter", poster: "", description: "Toys come to life when humans aren't around in this groundbreaking animated adventure." },
-        { title: "The Truman Show", year: 1998, director: "Peter Weir", poster: "", description: "A man discovers his entire life is a reality TV show in this uplifting and thought-provoking film." },
-        { title: "Crazy Rich Asians", year: 2018, director: "Jon M. Chu", poster: "", description: "A woman discovers her boyfriend comes from one of the wealthiest families in Singapore." },
+        { title: "The Apartment", year: 1960, director: "Billy Wilder", poster: "https://image.tmdb.org/t/p/w300/ht3HrI91D38Y9c4FudIDculXt18.jpg", description: "A charming romantic comedy about a man who lends his apartment to his bosses for affairs." },
+        { title: "Singin' in the Rain", year: 1952, director: "Gene Kelly", poster: "https://image.tmdb.org/t/p/w300/w03EiJVHP8Un77DNka eta5sTEo.jpg", description: "A joyous musical celebrating the transition from silent films to talkies in Hollywood." },
+        { title: "Roman Holiday", year: 1953, director: "William Wyler", poster: "https://image.tmdb.org/t/p/w300/8lI9dmz2FNVZnyaRQWWC05yRqtT.jpg", description: "A princess escapes her duties for a day of adventure with a charming reporter in Rome." },
+        { title: "Some Like It Hot", year: 1959, director: "Billy Wilder", poster: "https://image.tmdb.org/t/p/w300/hVIKyTK15y8opr6XVjzhsoDFVXO.jpg", description: "Two musicians disguise themselves as women to escape gangsters in this hilarious comedy." },
+        { title: "Mamma Mia!", year: 2008, director: "Phyllida Lloyd", poster: "https://image.tmdb.org/t/p/w300/zKHv4J2E6RlEWEejNyWDyTUZWSz.jpg", description: "A bride-to-be invites three men to her wedding, each possibly being her father, in this ABBA-fueled musical." },
+        { title: "Legally Blonde", year: 2001, director: "Robert Luketic", poster: "https://image.tmdb.org/t/p/w300/4ABNnmkVpzplrEVQWt1piITT0Ey.jpg", description: "A sorority girl follows her ex to Harvard Law and discovers her own potential." },
+        { title: "The Goonies", year: 1985, director: "Richard Donner", poster: "https://image.tmdb.org/t/p/w300/r2xfCEnZd0s57jK5Z37LYWiTGbi.jpg", description: "A group of kids search for pirate treasure to save their homes from foreclosure." },
+        { title: "Mary Poppins", year: 1964, director: "Robert Stevenson", poster: "https://image.tmdb.org/t/p/w300/uV9b5liKKAfHPOzb3ihN39duE4g.jpg", description: "A magical nanny brings joy and wonder to a London family." },
+        { title: "Toy Story", year: 1995, director: "John Lasseter", poster: "https://image.tmdb.org/t/p/w300/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg", description: "Toys come to life when humans aren't around in this groundbreaking animated adventure." },
+        { title: "The Truman Show", year: 1998, director: "Peter Weir", poster: "https://image.tmdb.org/t/p/w300/vuza0WqY239yBXOadKlGwJsZJFE.jpg", description: "A man discovers his entire life is a reality TV show in this uplifting and thought-provoking film." },
+        { title: "Crazy Rich Asians", year: 2018, director: "Jon M. Chu", poster: "https://image.tmdb.org/t/p/w300/1XxL8LWudTV80d2V3K8EDlJPNNN.jpg", description: "A woman discovers her boyfriend comes from one of the wealthiest families in Singapore." },
     ],
     sad: [
         { title: "Eternal Sunshine of the Spotless Mind", year: 2004, director: "Michel Gondry", poster: "https://image.tmdb.org/t/p/w300/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg", description: "A couple undergoes a procedure to erase each other from their memories." },
@@ -48,17 +48,17 @@ const movieDatabase = {
         { title: "The Green Mile", year: 1999, director: "Frank Darabont", poster: "https://image.tmdb.org/t/p/w300/velWPhVMQeQKcxggNEU8YmIo52R.jpg", description: "Death row guards encounter a prisoner with a miraculous gift." },
         { title: "Atonement", year: 2007, director: "Joe Wright", poster: "https://image.tmdb.org/t/p/w300/hMRIyBjPzxaSNWLYwiRz86IM4DH.jpg", description: "A young girl's lie destroys the lives of two lovers across decades." },
         { title: "The Road", year: 2009, director: "John Hillcoat", poster: "https://image.tmdb.org/t/p/w300/pQJIv6mxDfE3cYAUOv2FjWbYv51.jpg", description: "A father and son journey through a post-apocalyptic landscape." },
-        { title: "The Hours", year: 2002, director: "Stephen Daldry", poster: "", description: "Three women from different eras are connected by Virginia Woolf's novel Mrs. Dalloway." },
-        { title: "The Elephant Man", year: 1980, director: "David Lynch", poster: "", description: "A severely disfigured man struggles to find dignity and acceptance in Victorian England." },
-        { title: "Ordinary People", year: 1980, director: "Robert Redford", poster: "", description: "A family struggles to cope with grief and guilt after their eldest son's death." },
-        { title: "Life Is Beautiful", year: 1997, director: "Roberto Benigni", poster: "", description: "A father uses humor and imagination to shield his son from the horrors of a concentration camp." },
-        { title: "The Boy in the Striped Pajamas", year: 2008, director: "Mark Herman", poster: "", description: "The forbidden friendship between the son of a Nazi officer and a Jewish boy in a concentration camp." },
-        { title: "Dancer in the Dark", year: 2000, director: "Lars von Trier", poster: "", description: "A factory worker going blind must save money for her son's operation while escaping into musical fantasies." },
-        { title: "The Bridges of Madison County", year: 1995, director: "Clint Eastwood", poster: "", description: "A brief but intense love affair between a photographer and an Iowa housewife." },
-        { title: "21 Grams", year: 2003, director: "Alejandro González Iñárritu", poster: "", description: "Three lives are forever changed by a tragic accident in this nonlinear drama." },
-        { title: "The Wrestler", year: 2008, director: "Darren Aronofsky", poster: "", description: "An aging wrestler fights to reconnect with his daughter and find redemption in the ring." },
-        { title: "Mystic River", year: 2003, director: "Clint Eastwood", poster: "", description: "Childhood friends are reunited when a murder forces them to confront their traumatic past." },
-        { title: "Sophie's Choice", year: 1982, director: "Alan J. Pakula", poster: "", description: "A woman's dark secret from a Nazi concentration camp haunts her relationship with two men." },
+        { title: "The Hours", year: 2002, director: "Stephen Daldry", poster: "https://image.tmdb.org/t/p/w300/4myDtHH68Cx4wfiv47C2CbbKms7.jpg", description: "Three women from different eras are connected by Virginia Woolf's novel Mrs. Dalloway." },
+        { title: "The Elephant Man", year: 1980, director: "David Lynch", poster: "https://image.tmdb.org/t/p/w300/tRgYvZtvx4PgO6oNLNe19PhtLIO.jpg", description: "A severely disfigured man struggles to find dignity and acceptance in Victorian England." },
+        { title: "Ordinary People", year: 1980, director: "Robert Redford", poster: "https://image.tmdb.org/t/p/w300/4i9R6CMRT5EnjUFzBklPi1FUfcV.jpg", description: "A family struggles to cope with grief and guilt after their eldest son's death." },
+        { title: "Life Is Beautiful", year: 1997, director: "Roberto Benigni", poster: "https://image.tmdb.org/t/p/w300/74hLDKjD5aGYOotO6esUVaeISa2.jpg", description: "A father uses humor and imagination to shield his son from the horrors of a concentration camp." },
+        { title: "The Boy in the Striped Pajamas", year: 2008, director: "Mark Herman", poster: "https://image.tmdb.org/t/p/w300/qR0Ng6EJQrWRK6BTSW48lbKjtUc.jpg", description: "The forbidden friendship between the son of a Nazi officer and a Jewish boy in a concentration camp." },
+        { title: "Dancer in the Dark", year: 2000, director: "Lars von Trier", poster: "https://image.tmdb.org/t/p/w300/2Z5ssAaq8MgHnWN8zGl6xzjBfA.jpg", description: "A factory worker going blind must save money for her son's operation while escaping into musical fantasies." },
+        { title: "The Bridges of Madison County", year: 1995, director: "Clint Eastwood", poster: "https://image.tmdb.org/t/p/w300/aZn4VqRFmxJ55BaDlDl7Tk9nYwi.jpg", description: "A brief but intense love affair between a photographer and an Iowa housewife." },
+        { title: "21 Grams", year: 2003, director: "Alejandro González Iñárritu", poster: "https://image.tmdb.org/t/p/w300/eOqBihgqdLzfjZMCRAJpSbQWMsg.jpg", description: "Three lives are forever changed by a tragic accident in this nonlinear drama." },
+        { title: "The Wrestler", year: 2008, director: "Darren Aronofsky", poster: "https://image.tmdb.org/t/p/w300/sJf7KKvJzIax8m4cDgPm1T3PQXM.jpg", description: "An aging wrestler fights to reconnect with his daughter and find redemption in the ring." },
+        { title: "Mystic River", year: 2003, director: "Clint Eastwood", poster: "https://image.tmdb.org/t/p/w300/hCHHKd0xnavp4VhZLhFZirWKByZ.jpg", description: "Childhood friends are reunited when a murder forces them to confront their traumatic past." },
+        { title: "Sophie's Choice", year: 1982, director: "Alan J. Pakula", poster: "https://image.tmdb.org/t/p/w300/sW45cLBH0OOqktn8lvlZPWmhyOJ.jpg", description: "A woman's dark secret from a Nazi concentration camp haunts her relationship with two men." },
     ],
     anxious: [
         { title: "Uncut Gems", year: 2019, director: "Benny Safdie, Josh Safdie", poster: "https://image.tmdb.org/t/p/w300/6XN1vxHc7kUSqNW1RbH3xHeLP17.jpg", description: "A jeweler makes increasingly risky bets to stay afloat." },
@@ -76,17 +76,17 @@ const movieDatabase = {
         { title: "Green Room", year: 2015, director: "Jeremy Saulnier", poster: "https://image.tmdb.org/t/p/w300/4l4KHkiLLMw9fKqGSxLkWLdVhDQ.jpg", description: "A punk band becomes trapped in a venue with violent white supremacists." },
         { title: "The Lighthouse", year: 2019, director: "Robert Eggers", poster: "https://image.tmdb.org/t/p/w300/3nk9UoepYmv1G9oP18q6JJCeYwN.jpg", description: "Two lighthouse keepers descend into madness on a remote island." },
         { title: "Hereditary", year: 2018, director: "Ari Aster", poster: "https://image.tmdb.org/t/p/w300/lHV8HHlhwNup2VbpiACtlKzaGIQ.jpg", description: "A family is haunted by a mysterious presence after their grandmother dies." },
-        { title: "No Country for Old Men", year: 2007, director: "Coen Brothers", poster: "", description: "A hunter finds a drug deal gone wrong and is pursued by a relentless killer." },
-        { title: "Zodiac", year: 2007, director: "David Fincher", poster: "", description: "A cartoonist becomes obsessed with tracking down the Zodiac Killer in 1970s San Francisco." },
-        { title: "Gone Girl", year: 2014, director: "David Fincher", poster: "", description: "A husband becomes the prime suspect when his wife disappears on their anniversary." },
-        { title: "Sicario", year: 2015, director: "Denis Villeneuve", poster: "", description: "An FBI agent joins a task force to bring down a Mexican drug cartel with questionable tactics." },
-        { title: "The Silence of the Lambs", year: 1991, director: "Jonathan Demme", poster: "", description: "An FBI trainee seeks help from an imprisoned cannibal to catch another serial killer." },
-        { title: "Parasite", year: 2019, director: "Bong Joon-ho", poster: "", description: "A poor family schemes to infiltrate a wealthy household with unpredictable consequences." },
-        { title: "The Wages of Fear", year: 1953, director: "Henri-Georges Clouzot", poster: "", description: "Four desperate men transport volatile nitroglycerin across treacherous terrain." },
-        { title: "Don't Breathe", year: 2016, director: "Fede Álvarez", poster: "", description: "Thieves break into a blind man's home and discover he's more dangerous than they imagined." },
-        { title: "Panic Room", year: 2002, director: "David Fincher", poster: "", description: "A mother and daughter hide in their panic room while intruders search for hidden money." },
-        { title: "The Descent", year: 2005, director: "Neil Marshall", poster: "", description: "Six women exploring an uncharted cave system encounter terrifying creatures in the darkness." },
-        { title: "Blue Ruin", year: 2013, director: "Jeremy Saulnier", poster: "", description: "A drifter's attempt at revenge spirals into a violent and desperate situation." },
+        { title: "No Country for Old Men", year: 2007, director: "Coen Brothers", poster: "https://image.tmdb.org/t/p/w300/bj1v6YKF8yHqA489VFfnQvOJpnc.jpg", description: "A hunter finds a drug deal gone wrong and is pursued by a relentless killer." },
+        { title: "Zodiac", year: 2007, director: "David Fincher", poster: "https://image.tmdb.org/t/p/w300/kIeryTkWM7AaKJoYWgdqN75nFEu.jpg", description: "A cartoonist becomes obsessed with tracking down the Zodiac Killer in 1970s San Francisco." },
+        { title: "Gone Girl", year: 2014, director: "David Fincher", poster: "https://image.tmdb.org/t/p/w300/lv5xShBIDPe7m4ufdlV0IAc7Avk.jpg", description: "A husband becomes the prime suspect when his wife disappears on their anniversary." },
+        { title: "Sicario", year: 2015, director: "Denis Villeneuve", poster: "https://image.tmdb.org/t/p/w300/lKqjBF2lYQNarTHULfHl8FezJlk.jpg", description: "An FBI agent joins a task force to bring down a Mexican drug cartel with questionable tactics." },
+        { title: "The Silence of the Lambs", year: 1991, director: "Jonathan Demme", poster: "https://image.tmdb.org/t/p/w300/rplLJ2hPcOQmkFhTqUte0MkEaO2.jpg", description: "An FBI trainee seeks help from an imprisoned cannibal to catch another serial killer." },
+        { title: "Parasite", year: 2019, director: "Bong Joon-ho", poster: "https://image.tmdb.org/t/p/w300/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg", description: "A poor family schemes to infiltrate a wealthy household with unpredictable consequences." },
+        { title: "The Wages of Fear", year: 1953, director: "Henri-Georges Clouzot", poster: "https://image.tmdb.org/t/p/w300/9F3lDBL3KzVEYDhxIKl71TmLUVO.jpg", description: "Four desperate men transport volatile nitroglycerin across treacherous terrain." },
+        { title: "Don't Breathe", year: 2016, director: "Fede Álvarez", poster: "https://image.tmdb.org/t/p/w300/plFLq8FXt7dZS6ue7F7YYk7rwnf.jpg", description: "Thieves break into a blind man's home and discover he's more dangerous than they imagined." },
+        { title: "Panic Room", year: 2002, director: "David Fincher", poster: "https://image.tmdb.org/t/p/w300/bRfPWCljRJEOoXp8DvLjwYRqTco.jpg", description: "A mother and daughter hide in their panic room while intruders search for hidden money." },
+        { title: "The Descent", year: 2005, director: "Neil Marshall", poster: "https://image.tmdb.org/t/p/w300/nSJRMbGpji78VpgFOI3Lqn1fVo8.jpg", description: "Six women exploring an uncharted cave system encounter terrifying creatures in the darkness." },
+        { title: "Blue Ruin", year: 2013, director: "Jeremy Saulnier", poster: "https://image.tmdb.org/t/p/w300/aRkiBjYM6eYlLx2Q8JYxs6RbFZS.jpg", description: "A drifter's attempt at revenge spirals into a violent and desperate situation." },
     ],
     melancholic: [
         { title: "Lost in Translation", year: 2003, director: "Sofia Coppola", poster: "https://image.tmdb.org/t/p/w300/wv9VXVkXmluA7L7pPYMCp56NhwY.jpg", description: "Two lonely souls find connection in the isolation of Tokyo." },
@@ -104,17 +104,17 @@ const movieDatabase = {
         { title: "The Rider", year: 2017, director: "Chloé Zhao", poster: "https://image.tmdb.org/t/p/w300/8SBfLqWvLK6WX7J94P3xj8GlFo5.jpg", description: "A rodeo rider struggles with his identity after a career-ending injury." },
         { title: "First Reformed", year: 2017, director: "Paul Schrader", poster: "https://image.tmdb.org/t/p/w300/5vaesD7tWmNPIVxk7zNpsf0CnXb.jpg", description: "A minister of a small church confronts his faith and despair." },
         { title: "Paris, Texas", year: 1984, director: "Wim Wenders", poster: "https://image.tmdb.org/t/p/w300/nQqPxRq0W2gJ1t0wQ3MyqPUyVqq.jpg", description: "A man emerges from the desert and reconnects with his young son." },
-        { title: "Chungking Express", year: 1994, director: "Wong Kar-wai", poster: "", description: "Two Hong Kong police officers cope with heartbreak through chance encounters." },
-        { title: "Fallen Angels", year: 1995, director: "Wong Kar-wai", poster: "", description: "Intersecting stories of lonely souls drifting through the neon-lit nights of Hong Kong." },
-        { title: "The End of the Affair", year: 1999, director: "Neil Jordan", poster: "", description: "A writer reflects on his passionate but doomed wartime affair with a married woman." },
-        { title: "Wings of Desire", year: 1987, director: "Wim Wenders", poster: "", description: "An angel watching over Berlin longs to experience human life and love." },
-        { title: "Brokeback Mountain", year: 2005, director: "Ang Lee", poster: "", description: "Two cowboys develop a forbidden relationship that spans decades." },
-        { title: "The English Patient", year: 1996, director: "Anthony Minghella", poster: "", description: "A badly burned man recounts his tragic love affair during World War II." },
-        { title: "A Single Man", year: 2009, director: "Tom Ford", poster: "", description: "A grieving professor plans his suicide while reliving memories of his deceased partner." },
-        { title: "Le Samouraï", year: 1967, director: "Jean-Pierre Melville", poster: "", description: "A solitary hitman faces betrayal in this stylish noir about loneliness and professionalism." },
-        { title: "Anomalisa", year: 2015, director: "Charlie Kaufman", poster: "", description: "A motivational speaker plagued by mundane life has a chance encounter at a hotel." },
-        { title: "Vanya on 42nd Street", year: 1994, director: "Louis Malle", poster: "", description: "A rehearsal of Chekhov's Uncle Vanya exploring regret and lost opportunities." },
-        { title: "Yi Yi", year: 2000, director: "Edward Yang", poster: "", description: "A Taiwanese family navigates life's disappointments and fleeting moments of connection." },
+        { title: "Chungking Express", year: 1994, director: "Wong Kar-wai", poster: "https://image.tmdb.org/t/p/w300/43lcpGDQdxnimE8gWNAEsGCcIKN.jpg", description: "Two Hong Kong police officers cope with heartbreak through chance encounters." },
+        { title: "Fallen Angels", year: 1995, director: "Wong Kar-wai", poster: "https://image.tmdb.org/t/p/w300/fnWyNCevJt03tBEePrO0PqLbxqM.jpg", description: "Intersecting stories of lonely souls drifting through the neon-lit nights of Hong Kong." },
+        { title: "The End of the Affair", year: 1999, director: "Neil Jordan", poster: "https://image.tmdb.org/t/p/w300/iPEMCBV7cZqpJbNaxtbLkx4QHEY.jpg", description: "A writer reflects on his passionate but doomed wartime affair with a married woman." },
+        { title: "Wings of Desire", year: 1987, director: "Wim Wenders", poster: "https://image.tmdb.org/t/p/w300/fGgrezGnIjEhybFSa1boFpzyLjP.jpg", description: "An angel watching over Berlin longs to experience human life and love." },
+        { title: "Brokeback Mountain", year: 2005, director: "Ang Lee", poster: "https://image.tmdb.org/t/p/w300/z8pUSYjHfB6sNzMIXRlDlqwqiwf.jpg", description: "Two cowboys develop a forbidden relationship that spans decades." },
+        { title: "The English Patient", year: 1996, director: "Anthony Minghella", poster: "https://image.tmdb.org/t/p/w300/4xzU6KRyONZfA2XxDpI1VqFCJLJ.jpg", description: "A badly burned man recounts his tragic love affair during World War II." },
+        { title: "A Single Man", year: 2009, director: "Tom Ford", poster: "https://image.tmdb.org/t/p/w300/1x39bKjxsZCBbuH26XmIJB2zBxO.jpg", description: "A grieving professor plans his suicide while reliving memories of his deceased partner." },
+        { title: "Le Samouraï", year: 1967, director: "Jean-Pierre Melville", poster: "https://image.tmdb.org/t/p/w300/hNLvbh8NOEoLlFDNhJHQZOhcOLV.jpg", description: "A solitary hitman faces betrayal in this stylish noir about loneliness and professionalism." },
+        { title: "Anomalisa", year: 2015, director: "Charlie Kaufman", poster: "https://image.tmdb.org/t/p/w300/4DJ9kfZTNChU6zdSqH2pRkkZ4V.jpg", description: "A motivational speaker plagued by mundane life has a chance encounter at a hotel." },
+        { title: "Vanya on 42nd Street", year: 1994, director: "Louis Malle", poster: "https://image.tmdb.org/t/p/w300/pxCQ7WMW77P8g0EAZB91UyP9Svo.jpg", description: "A rehearsal of Chekhov's Uncle Vanya exploring regret and lost opportunities." },
+        { title: "Yi Yi", year: 2000, director: "Edward Yang", poster: "https://image.tmdb.org/t/p/w300/v0dcqjRZvdocSIETTpXO4FalNeu.jpg", description: "A Taiwanese family navigates life's disappointments and fleeting moments of connection." },
     ],
     energetic: [
         { title: "Mad Max: Fury Road", year: 2015, director: "George Miller", poster: "https://image.tmdb.org/t/p/w300/hA2ple9q4qnwxp3hKVNhroipsir.jpg", description: "A post-apocalyptic chase across the desert in pursuit of freedom." },
@@ -132,17 +132,17 @@ const movieDatabase = {
         { title: "Atomic Blonde", year: 2017, director: "David Leitch", poster: "https://image.tmdb.org/t/p/w300/kV9R5h0B5vAPH0Z0FFlrdzI8rYX.jpg", description: "A spy navigates the deadly Cold War world of espionage in 1989 Berlin." },
         { title: "Shaun of the Dead", year: 2004, director: "Edgar Wright", poster: "https://image.tmdb.org/t/p/w300/uJgfmLbkYM8bnm52r9bYfuP94BY.jpg", description: "A man attempts to win back his girlfriend during a zombie apocalypse." },
         { title: "Hot Fuzz", year: 2007, director: "Edgar Wright", poster: "https://image.tmdb.org/t/p/w300/zPib4ukTSdXvHP9pxGkFCe34f3y.jpg", description: "A top London cop is transferred to a quiet village with a dark secret." },
-        { title: "The Matrix", year: 1999, director: "Wachowskis", poster: "", description: "A hacker discovers reality is a simulation and joins a rebellion against machines." },
-        { title: "Inception", year: 2010, director: "Christopher Nolan", poster: "", description: "A thief who steals secrets through dream infiltration takes on a dangerous final job." },
-        { title: "Die Hard", year: 1988, director: "John McTiernan", poster: "", description: "A cop battles terrorists who have taken over a Los Angeles skyscraper." },
-        { title: "Raiders of the Lost Ark", year: 1981, director: "Steven Spielberg", poster: "", description: "An archaeologist races to find the Ark of the Covenant before the Nazis." },
-        { title: "Crank", year: 2006, director: "Mark Neveldine", poster: "", description: "A hitman must keep his adrenaline flowing to survive after being poisoned." },
-        { title: "The Bourne Ultimatum", year: 2007, director: "Paul Greengrass", poster: "", description: "An amnesiac spy races to uncover his past while evading CIA assassins." },
-        { title: "Speed", year: 1994, director: "Jan de Bont", poster: "", description: "A cop must keep a bus above 50 mph to prevent a bomb from exploding." },
-        { title: "Point Break", year: 1991, director: "Kathryn Bigelow", poster: "", description: "An FBI agent goes undercover to infiltrate a gang of surfers who rob banks." },
-        { title: "Run Lola Run", year: 1998, director: "Tom Tykwer", poster: "", description: "A woman has 20 minutes to find money to save her boyfriend's life across three timelines." },
-        { title: "Upgrade", year: 2018, director: "Leigh Whannell", poster: "", description: "A paralyzed man receives an AI implant that lets him seek revenge on his attackers." },
-        { title: "Casino Royale", year: 2006, director: "Martin Campbell", poster: "", description: "James Bond earns his 00 status and takes on a terrorist banker in a high-stakes poker game." },
+        { title: "The Matrix", year: 1999, director: "Wachowskis", poster: "https://image.tmdb.org/t/p/w300/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg", description: "A hacker discovers reality is a simulation and joins a rebellion against machines." },
+        { title: "Inception", year: 2010, director: "Christopher Nolan", poster: "https://image.tmdb.org/t/p/w300/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg", description: "A thief who steals secrets through dream infiltration takes on a dangerous final job." },
+        { title: "Die Hard", year: 1988, director: "John McTiernan", poster: "https://image.tmdb.org/t/p/w300/yFihWxQcmqcaBR31QM6Y8gT6aYV.jpg", description: "A cop battles terrorists who have taken over a Los Angeles skyscraper." },
+        { title: "Raiders of the Lost Ark", year: 1981, director: "Steven Spielberg", poster: "https://image.tmdb.org/t/p/w300/ceG9VzoRAVGwivFU403Wc3AHRys.jpg", description: "An archaeologist races to find the Ark of the Covenant before the Nazis." },
+        { title: "Crank", year: 2006, director: "Mark Neveldine", poster: "https://image.tmdb.org/t/p/w300/bN6KL8wMfIrQ3dj78xQnLVHQDfG.jpg", description: "A hitman must keep his adrenaline flowing to survive after being poisoned." },
+        { title: "The Bourne Ultimatum", year: 2007, director: "Paul Greengrass", poster: "https://image.tmdb.org/t/p/w300/5p4cGrT70SvDY1hH5UKMZl6aNMz.jpg", description: "An amnesiac spy races to uncover his past while evading CIA assassins." },
+        { title: "Speed", year: 1994, director: "Jan de Bont", poster: "https://image.tmdb.org/t/p/w300/2smbxCn1oCmgIyYhslsmwEQgqTr.jpg", description: "A cop must keep a bus above 50 mph to prevent a bomb from exploding." },
+        { title: "Point Break", year: 1991, director: "Kathryn Bigelow", poster: "https://image.tmdb.org/t/p/w300/9V16fBSNIbVuFWFQo34Y4MwTbgp.jpg", description: "An FBI agent goes undercover to infiltrate a gang of surfers who rob banks." },
+        { title: "Run Lola Run", year: 1998, director: "Tom Tykwer", poster: "https://image.tmdb.org/t/p/w300/oZJyRyPIF1dHuL65f4ithqNIYqq.jpg", description: "A woman has 20 minutes to find money to save her boyfriend's life across three timelines." },
+        { title: "Upgrade", year: 2018, director: "Leigh Whannell", poster: "https://image.tmdb.org/t/p/w300/aRYWdVGXK82hCqmkOLKKPq5uOud.jpg", description: "A paralyzed man receives an AI implant that lets him seek revenge on his attackers." },
+        { title: "Casino Royale", year: 2006, director: "Martin Campbell", poster: "https://image.tmdb.org/t/p/w300/zlWBxz2pTA9p45kUThZRyWkGkCg.jpg", description: "James Bond earns his 00 status and takes on a terrorist banker in a high-stakes poker game." },
     ],
     nostalgic: [
         { title: "Before Sunrise", year: 1995, director: "Richard Linklater", poster: "https://image.tmdb.org/t/p/w300/7p2yFGgUlKdES0WnMiX7C8fprKf.jpg", description: "Two strangers meet on a train and spend a night walking through Vienna." },
@@ -160,17 +160,17 @@ const movieDatabase = {
         { title: "E.T. the Extra-Terrestrial", year: 1982, director: "Steven Spielberg", poster: "https://image.tmdb.org/t/p/w300/5pUoE4J5kF8cBF0J82ZIpJbQyIp.jpg", description: "A young boy befriends an alien stranded on Earth." },
         { title: "The Sandlot", year: 1993, director: "David Mickey Evans", poster: "https://image.tmdb.org/t/p/w300/2FYRvqxsgWKvCvEG66JnXnGGpSx.jpg", description: "A group of kids play baseball during the summer of 1962." },
         { title: "Good Will Hunting", year: 1997, director: "Gus Van Sant", poster: "https://image.tmdb.org/t/p/w300/bABCBKYBK7A5G1x0FzoeoNfuj2.jpg", description: "A janitor at MIT is discovered to be a mathematical genius." },
-        { title: "Cinema Paradiso", year: 1988, director: "Giuseppe Tornatore", poster: "", description: "A filmmaker recalls his childhood friendship with a movie theater projectionist in Sicily." },
-        { title: "Before Sunset", year: 2004, director: "Richard Linklater", poster: "", description: "Two former lovers reunite in Paris nine years after their first meeting in Vienna." },
-        { title: "The Way We Were", year: 1973, director: "Sydney Pollack", poster: "", description: "A politically active woman and a laid-back writer fall in love despite their differences." },
-        { title: "American Graffiti", year: 1973, director: "George Lucas", poster: "", description: "A group of teenagers spend their last night together before college in 1962." },
-        { title: "Summer of '42", year: 1971, director: "Robert Mulligan", poster: "", description: "A teenage boy experiences first love during a summer vacation in the 1940s." },
-        { title: "The Tree of Life", year: 2011, director: "Terrence Malick", poster: "", description: "A man reflects on his childhood in 1950s Texas and his relationship with his father." },
-        { title: "Moonrise Kingdom", year: 2012, director: "Wes Anderson", poster: "", description: "Two young lovers run away together on a 1960s New England island." },
-        { title: "The Virgin Suicides", year: 1999, director: "Sofia Coppola", poster: "", description: "Five boys recall their obsession with mysterious sisters in 1970s suburban Detroit." },
-        { title: "My Girl", year: 1991, director: "Howard Zieff", poster: "", description: "A young girl comes of age during the summer of 1972 in small-town Pennsylvania." },
-        { title: "Wonder Years: The Movie", year: 1988, director: "Steve Miner", poster: "", description: "A nostalgic look at growing up in late 1960s suburban America." },
-        { title: "A Christmas Story", year: 1983, director: "Bob Clark", poster: "", description: "A boy dreams of getting a Red Ryder BB gun for Christmas in 1940s Indiana." },
+        { title: "Cinema Paradiso", year: 1988, director: "Giuseppe Tornatore", poster: "https://image.tmdb.org/t/p/w300/gCI2AeMV4IHSewhJkzsur5MEp6R.jpg", description: "A filmmaker recalls his childhood friendship with a movie theater projectionist in Sicily." },
+        { title: "Before Sunset", year: 2004, director: "Richard Linklater", poster: "https://image.tmdb.org/t/p/w300/gycdE1ARByGQcK4fYR2mgpzrafG.jpg", description: "Two former lovers reunite in Paris nine years after their first meeting in Vienna." },
+        { title: "The Way We Were", year: 1973, director: "Sydney Pollack", poster: "https://image.tmdb.org/t/p/w300/vLqHdW6bIJbSMCR0fiMzGSU3XWj.jpg", description: "A politically active woman and a laid-back writer fall in love despite their differences." },
+        { title: "American Graffiti", year: 1973, director: "George Lucas", poster: "https://image.tmdb.org/t/p/w300/6mY8LYML1Z3ERmM1eWyMvRqzjOD.jpg", description: "A group of teenagers spend their last night together before college in 1962." },
+        { title: "Summer of '42", year: 1971, director: "Robert Mulligan", poster: "https://image.tmdb.org/t/p/w300/tnPXF6C3aWxGZmYvmX1rLwGRG6M.jpg", description: "A teenage boy experiences first love during a summer vacation in the 1940s." },
+        { title: "The Tree of Life", year: 2011, director: "Terrence Malick", poster: "https://image.tmdb.org/t/p/w300/9K4YsWYgDjqHS9Je6E5q9Vs5aW1.jpg", description: "A man reflects on his childhood in 1950s Texas and his relationship with his father." },
+        { title: "Moonrise Kingdom", year: 2012, director: "Wes Anderson", poster: "https://image.tmdb.org/t/p/w300/9L9An9RYOslgJpPFCp5S4U8pMfq.jpg", description: "Two young lovers run away together on a 1960s New England island." },
+        { title: "The Virgin Suicides", year: 1999, director: "Sofia Coppola", poster: "https://image.tmdb.org/t/p/w300/poNySERmK7FI6z94VFh0I2RM4zN.jpg", description: "Five boys recall their obsession with mysterious sisters in 1970s suburban Detroit." },
+        { title: "My Girl", year: 1991, director: "Howard Zieff", poster: "https://image.tmdb.org/t/p/w300/p0xM8GRMzCfpVbdJlP5iXjdQ8L1.jpg", description: "A young girl comes of age during the summer of 1972 in small-town Pennsylvania." },
+        { title: "Wonder Years: The Movie", year: 1988, director: "Steve Miner", poster: "https://image.tmdb.org/t/p/w300/mN0gLTZS6h0PH4Q9aKiTKPWXCT8.jpg", description: "A nostalgic look at growing up in late 1960s suburban America." },
+        { title: "A Christmas Story", year: 1983, director: "Bob Clark", poster: "https://image.tmdb.org/t/p/w300/s29hJSmmKJUl3O4g2xeahQdzlPV.jpg", description: "A boy dreams of getting a Red Ryder BB gun for Christmas in 1940s Indiana." },
     ],
     contemplative: [
         { title: "2001: A Space Odyssey", year: 1968, director: "Stanley Kubrick", poster: "https://image.tmdb.org/t/p/w300/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg", description: "A voyage to Jupiter turns into a philosophical journey through space and time." },
@@ -187,17 +187,17 @@ const movieDatabase = {
         { title: "The Holy Mountain", year: 1973, director: "Alejandro Jodorowsky", poster: "https://image.tmdb.org/t/p/w300/gCE2Av0MfxweCl8JHf3vOiXxiXs.jpg", description: "A spiritual journey through surreal landscapes in search of enlightenment." },
         { title: "Mr. Nobody", year: 2009, director: "Jaco Van Dormael", poster: "https://image.tmdb.org/t/p/w300/mPXCMC5HTtvczX2eWpkQNcLdIpr.jpg", description: "The last mortal man on Earth recalls his possible lives and parallel existences." },
         { title: "Contact", year: 1997, director: "Robert Zemeckis", poster: "https://image.tmdb.org/t/p/w300/zXHS3JiUqA1qpNiLcAJSQJMT8sH.jpg", description: "A scientist makes first contact with extraterrestrial intelligence." },
-        { title: "The Mirror", year: 1975, director: "Andrei Tarkovsky", poster: "", description: "A dying poet reflects on his life through memories, dreams, and Russian history." },
-        { title: "Wild Strawberries", year: 1957, director: "Ingmar Bergman", poster: "", description: "An elderly professor confronts his past through dreams and memories on a road trip." },
-        { title: "Persona", year: 1966, director: "Ingmar Bergman", poster: "", description: "A nurse caring for a silent actress experiences a disturbing psychological merging." },
-        { title: "8½", year: 1963, director: "Federico Fellini", poster: "", description: "A film director struggles with creative block while reflecting on his life and art." },
-        { title: "Ex Machina", year: 2014, director: "Alex Garland", poster: "", description: "A programmer evaluates the consciousness of an advanced AI in an isolated facility." },
-        { title: "Blade Runner", year: 1982, director: "Ridley Scott", poster: "", description: "A detective hunts rogue replicants while questioning what it means to be human." },
-        { title: "Her", year: 2013, director: "Spike Jonze", poster: "", description: "A lonely man develops a relationship with an AI operating system in near-future Los Angeles." },
-        { title: "Embrace of the Serpent", year: 2015, director: "Ciro Guerra", poster: "", description: "A shaman guides two scientists through the Amazon decades apart in this hypnotic journey." },
-        { title: "The Thin Red Line", year: 1998, director: "Terrence Malick", poster: "", description: "Soldiers contemplate life, death, and nature during the Battle of Guadalcanal." },
-        { title: "A.I. Artificial Intelligence", year: 2001, director: "Steven Spielberg", poster: "", description: "A robotic boy seeks to become real to win back his human mother's love." },
-        { title: "Cloud Atlas", year: 2012, director: "Wachowskis", poster: "", description: "Six stories across time explore how actions ripple through past, present, and future." },
+        { title: "The Mirror", year: 1975, director: "Andrei Tarkovsky", poster: "https://image.tmdb.org/t/p/w300/lMZfmCSBPDvUCP1REvQQBkSxAte.jpg", description: "A dying poet reflects on his life through memories, dreams, and Russian history." },
+        { title: "Wild Strawberries", year: 1957, director: "Ingmar Bergman", poster: "https://image.tmdb.org/t/p/w300/fFqgYARed3b67wF7ksPfyaN3mty.jpg", description: "An elderly professor confronts his past through dreams and memories on a road trip." },
+        { title: "Persona", year: 1966, director: "Ingmar Bergman", poster: "https://image.tmdb.org/t/p/w300/4csXkfgj1lAGAf80YaruDnMzCnU.jpg", description: "A nurse caring for a silent actress experiences a disturbing psychological merging." },
+        { title: "8½", year: 1963, director: "Federico Fellini", poster: "https://image.tmdb.org/t/p/w300/aVhZvZCD1srStSzWJlhTibn32D8.jpg", description: "A film director struggles with creative block while reflecting on his life and art." },
+        { title: "Ex Machina", year: 2014, director: "Alex Garland", poster: "https://image.tmdb.org/t/p/w300/btTbB8ZajCEolCK05y0MzKtLnVL.jpg", description: "A programmer evaluates the consciousness of an advanced AI in an isolated facility." },
+        { title: "Blade Runner", year: 1982, director: "Ridley Scott", poster: "https://image.tmdb.org/t/p/w300/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg", description: "A detective hunts rogue replicants while questioning what it means to be human." },
+        { title: "Her", year: 2013, director: "Spike Jonze", poster: "https://image.tmdb.org/t/p/w300/lEIaL12hSkqqe83kgADkbUqEnvk.jpg", description: "A lonely man develops a relationship with an AI operating system in near-future Los Angeles." },
+        { title: "Embrace of the Serpent", year: 2015, director: "Ciro Guerra", poster: "https://image.tmdb.org/t/p/w300/3DGWnYMkwEIVqPpyI9MfzVWiIWp.jpg", description: "A shaman guides two scientists through the Amazon decades apart in this hypnotic journey." },
+        { title: "The Thin Red Line", year: 1998, director: "Terrence Malick", poster: "https://image.tmdb.org/t/p/w300/t8FMflerWOgH9QxcLr1T3Cq2wHc.jpg", description: "Soldiers contemplate life, death, and nature during the Battle of Guadalcanal." },
+        { title: "A.I. Artificial Intelligence", year: 2001, director: "Steven Spielberg", poster: "https://image.tmdb.org/t/p/w300/wnTzVL0fv1NNfo2TASoTTxU8Vzk.jpg", description: "A robotic boy seeks to become real to win back his human mother's love." },
+        { title: "Cloud Atlas", year: 2012, director: "Wachowskis", poster: "https://image.tmdb.org/t/p/w300/1Y3bfD7JJTkhH0l5q6qPCrxHDlq.jpg", description: "Six stories across time explore how actions ripple through past, present, and future." },
     ],
     weird: [
         { title: "Swiss Army Man", year: 2016, director: "Daniel Kwan, Daniel Scheinert", poster: "https://image.tmdb.org/t/p/w300/4wNVzCUFO5k0sfJxT6dUfVCDGpJ.jpg", description: "A man stranded on an island befriends a flatulent corpse." },
@@ -214,17 +214,17 @@ const movieDatabase = {
         { title: "Rubber", year: 2010, director: "Quentin Dupieux", poster: "https://image.tmdb.org/t/p/w300/ryFMW5E6YYvYVZYcqBkGctzPjGa.jpg", description: "A sentient tire with psychokinetic powers goes on a killing spree." },
         { title: "The Holy Mountain", year: 1973, director: "Alejandro Jodorowsky", poster: "https://image.tmdb.org/t/p/w300/gCE2Av0MfxweCl8JHf3vOiXxiXs.jpg", description: "A thief joins a spiritual journey with seven powerful figures." },
         { title: "Mulholland Drive", year: 2001, director: "David Lynch", poster: "https://image.tmdb.org/t/p/w300/h52sVx7F0IqkqGVP3Xz1Hf4F2Pk.jpg", description: "A woman with amnesia and an aspiring actress search for answers in Los Angeles." },
-        { title: "Adaptation", year: 2002, director: "Spike Jonze", poster: "", description: "A screenwriter struggles to adapt a book while his twin brother writes a thriller." },
-        { title: "Brazil", year: 1985, director: "Terry Gilliam", poster: "", description: "A bureaucrat in a dystopian future dreams of escape through surreal fantasies." },
-        { title: "El Topo", year: 1970, director: "Alejandro Jodorowsky", poster: "", description: "A gunfighter and his son journey through a surreal western landscape." },
-        { title: "Videodrome", year: 1983, director: "David Cronenberg", poster: "", description: "A TV programmer discovers a broadcast signal that causes disturbing hallucinations." },
-        { title: "The City of Lost Children", year: 1995, director: "Jean-Pierre Jeunet", poster: "", description: "A scientist kidnaps children to steal their dreams in this dark fantasy." },
-        { title: "Naked Lunch", year: 1991, director: "David Cronenberg", poster: "", description: "A writer's drug-fueled hallucinations blur reality in this adaptation of Burroughs' novel." },
-        { title: "Fear and Loathing in Las Vegas", year: 1998, director: "Terry Gilliam", poster: "", description: "A journalist and his lawyer embark on a drug-fueled trip to Las Vegas." },
-        { title: "The Zero Theorem", year: 2013, director: "Terry Gilliam", poster: "", description: "A computer hacker searches for meaning while working to prove life is meaningless." },
-        { title: "Enemy", year: 2013, director: "Denis Villeneuve", poster: "", description: "A man discovers his exact doppelgänger and becomes obsessed with meeting him." },
-        { title: "Tusk", year: 2014, director: "Kevin Smith", poster: "", description: "A podcaster is surgically transformed into a walrus by a deranged sailor." },
-        { title: "The Voices", year: 2014, director: "Marjane Satrapi", poster: "", description: "A factory worker's pets give him advice that leads to increasingly dark situations." },
+        { title: "Adaptation", year: 2002, director: "Spike Jonze", poster: "https://image.tmdb.org/t/p/w300/fTYHWZriu1mpiFNbnpmI6s4hwGM.jpg", description: "A screenwriter struggles to adapt a book while his twin brother writes a thriller." },
+        { title: "Brazil", year: 1985, director: "Terry Gilliam", poster: "https://image.tmdb.org/t/p/w300/4ctDCybazVweTFNTCO8rDRqyMbX.jpg", description: "A bureaucrat in a dystopian future dreams of escape through surreal fantasies." },
+        { title: "El Topo", year: 1970, director: "Alejandro Jodorowsky", poster: "https://image.tmdb.org/t/p/w300/p1Iy3JfZDRx8sJnTUG1L5Y2EKqa.jpg", description: "A gunfighter and his son journey through a surreal western landscape." },
+        { title: "Videodrome", year: 1983, director: "David Cronenberg", poster: "https://image.tmdb.org/t/p/w300/9FB1KdxUbOyGXKyQmrPG2LpZM7a.jpg", description: "A TV programmer discovers a broadcast signal that causes disturbing hallucinations." },
+        { title: "The City of Lost Children", year: 1995, director: "Jean-Pierre Jeunet", poster: "https://image.tmdb.org/t/p/w300/2aMmc8cCOkHU6ZAS7fsNTWj3jU6.jpg", description: "A scientist kidnaps children to steal their dreams in this dark fantasy." },
+        { title: "Naked Lunch", year: 1991, director: "David Cronenberg", poster: "https://image.tmdb.org/t/p/w300/rZv6B7bE4AXY2DjNsVNVMQVqEHQ.jpg", description: "A writer's drug-fueled hallucinations blur reality in this adaptation of Burroughs' novel." },
+        { title: "Fear and Loathing in Las Vegas", year: 1998, director: "Terry Gilliam", poster: "https://image.tmdb.org/t/p/w300/pduitse3afvLVy8l8wqRk1Yq2aCo.jpg", description: "A journalist and his lawyer embark on a drug-fueled trip to Las Vegas." },
+        { title: "The Zero Theorem", year: 2013, director: "Terry Gilliam", poster: "https://image.tmdb.org/t/p/w300/8ifHaZmG4y5A4nWE0HZrh3aFCgJ.jpg", description: "A computer hacker searches for meaning while working to prove life is meaningless." },
+        { title: "Enemy", year: 2013, director: "Denis Villeneuve", poster: "https://image.tmdb.org/t/p/w300/tLwVGWFRaJSfOLZYhKdGd7mSU3p.jpg", description: "A man discovers his exact doppelgänger and becomes obsessed with meeting him." },
+        { title: "Tusk", year: 2014, director: "Kevin Smith", poster: "https://image.tmdb.org/t/p/w300/sMfx50uJVwJM4VJFpDPG8EvQzEJ.jpg", description: "A podcaster is surgically transformed into a walrus by a deranged sailor." },
+        { title: "The Voices", year: 2014, director: "Marjane Satrapi", poster: "https://image.tmdb.org/t/p/w300/iPOQRKBDHFxQhZPXB6kj2cU5Z6d.jpg", description: "A factory worker's pets give him advice that leads to increasingly dark situations." },
     ],
     cozy: [
         { title: "Kiki's Delivery Service", year: 1989, director: "Hayao Miyazaki", poster: "https://image.tmdb.org/t/p/w300/7nO5DUMnGUuXrA4r2h6ESOKQRrx.jpg", description: "A young witch starts a delivery service in a seaside town." },
@@ -242,18 +242,18 @@ const movieDatabase = {
         { title: "Notting Hill", year: 1999, director: "Roger Michell", poster: "https://image.tmdb.org/t/p/w300/3pCuYVEj3qwvOibiEk10RcXh3xw.jpg", description: "A bookshop owner falls in love with a famous American actress." },
         { title: "You've Got Mail", year: 1998, director: "Nora Ephron", poster: "https://image.tmdb.org/t/p/w300/4U8l2fGU6jxcA9HJWtQgCfOa28Y.jpg", description: "Two business rivals unknowingly fall in love over email." },
         { title: "Groundhog Day", year: 1993, director: "Harold Ramis", poster: "https://image.tmdb.org/t/p/w300/gCgt1WARPZaXnq523ySQEUKinCs.jpg", description: "A weatherman relives the same day over and over." },
-        { title: "Howl's Moving Castle", year: 2004, director: "Hayao Miyazaki", poster: "", description: "A young woman is transformed into an old lady and seeks refuge in a wizard's moving castle." },
-        { title: "Spirited Away", year: 2001, director: "Hayao Miyazaki", poster: "", description: "A girl must work in a magical bathhouse to free her parents from a curse." },
-        { title: "The Hundred-Foot Journey", year: 2014, director: "Lasse Hallström", poster: "", description: "An Indian family opens a restaurant across from a Michelin-starred French establishment." },
-        { title: "Chocolat", year: 2000, director: "Lasse Hallström", poster: "", description: "A woman opens a chocolate shop in a conservative French village during Lent." },
-        { title: "Ratatouille", year: 2007, director: "Brad Bird", poster: "", description: "A rat dreams of becoming a chef in a prestigious Paris restaurant." },
-        { title: "Local Hero", year: 1983, director: "Bill Forsyth", poster: "", description: "An oil company representative falls in love with a Scottish coastal village." },
-        { title: "Sleepless in Seattle", year: 1993, director: "Nora Ephron", poster: "", description: "A widower's son calls a radio show to find his dad a new wife." },
-        { title: "It's Complicated", year: 2009, director: "Nancy Meyers", poster: "", description: "A divorced couple rekindles their romance while their lives become delightfully messy." },
-        { title: "Something's Gotta Give", year: 2003, director: "Nancy Meyers", poster: "", description: "An aging bachelor falls for the mother of his young girlfriend." },
-        { title: "The Best Exotic Marigold Hotel", year: 2011, director: "John Madden", poster: "", description: "British retirees find new life and love at a hotel in India." },
-        { title: "Waking Ned Devine", year: 1998, director: "Kirk Jones", poster: "", description: "A small Irish village conspires to claim a dead man's lottery winnings." },
-        { title: "Once", year: 2007, director: "John Carney", poster: "", description: "A Dublin street musician and a Czech immigrant bond over music and create an album together." },
+        { title: "Howl's Moving Castle", year: 2004, director: "Hayao Miyazaki", poster: "https://image.tmdb.org/t/p/w300/6pZgH10jhpToPcf02jTmUAtiLIW.jpg", description: "A young woman is transformed into an old lady and seeks refuge in a wizard's moving castle." },
+        { title: "Spirited Away", year: 2001, director: "Hayao Miyazaki", poster: "https://image.tmdb.org/t/p/w300/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg", description: "A girl must work in a magical bathhouse to free her parents from a curse." },
+        { title: "The Hundred-Foot Journey", year: 2014, director: "Lasse Hallström", poster: "https://image.tmdb.org/t/p/w300/wug4iEr2LBkV0bvQ3v7YOBPRdEu.jpg", description: "An Indian family opens a restaurant across from a Michelin-starred French establishment." },
+        { title: "Chocolat", year: 2000, director: "Lasse Hallström", poster: "https://image.tmdb.org/t/p/w300/kGljuMwXDvXLzMQ0v6xrbKsuzFE.jpg", description: "A woman opens a chocolate shop in a conservative French village during Lent." },
+        { title: "Ratatouille", year: 2007, director: "Brad Bird", poster: "https://image.tmdb.org/t/p/w300/t3vaWRPSf6WjDSq6QAJ1JMgFPnl.jpg", description: "A rat dreams of becoming a chef in a prestigious Paris restaurant." },
+        { title: "Local Hero", year: 1983, director: "Bill Forsyth", poster: "https://image.tmdb.org/t/p/w300/lIfXjcA1GFmG7ChLpyDHf3E7XqO.jpg", description: "An oil company representative falls in love with a Scottish coastal village." },
+        { title: "Sleepless in Seattle", year: 1993, director: "Nora Ephron", poster: "https://image.tmdb.org/t/p/w300/afkYP1EKpAAJP48BbfUlziLqT8w.jpg", description: "A widower's son calls a radio show to find his dad a new wife." },
+        { title: "It's Complicated", year: 2009, director: "Nancy Meyers", poster: "https://image.tmdb.org/t/p/w300/bUsGQPZsZmMKdJZvhJVRTJVdpZw.jpg", description: "A divorced couple rekindles their romance while their lives become delightfully messy." },
+        { title: "Something's Gotta Give", year: 2003, director: "Nancy Meyers", poster: "https://image.tmdb.org/t/p/w300/iCJJBMfxd6s1VWERLRJfubwELxR.jpg", description: "An aging bachelor falls for the mother of his young girlfriend." },
+        { title: "The Best Exotic Marigold Hotel", year: 2011, director: "John Madden", poster: "https://image.tmdb.org/t/p/w300/7jKUixNuMvTg6RGvLEPY8fRhZ5f.jpg", description: "British retirees find new life and love at a hotel in India." },
+        { title: "Waking Ned Devine", year: 1998, director: "Kirk Jones", poster: "https://image.tmdb.org/t/p/w300/wm7xOXpXv6wF1SMSwVz8Bi8sIEW.jpg", description: "A small Irish village conspires to claim a dead man's lottery winnings." },
+        { title: "Once", year: 2007, director: "John Carney", poster: "https://image.tmdb.org/t/p/w300/bqGzrchr94MmUoHZxgpOo6OUW5N.jpg", description: "A Dublin street musician and a Czech immigrant bond over music and create an album together." },
     ],
 };
 
@@ -377,12 +377,21 @@ function getRandomMovies(emotions, count = 4) {
 // Show movie details in modal
 function showMovieDetails(movie) {
     const modalPoster = document.getElementById('modal-poster');
-    modalPoster.style.backgroundColor = stringToColor(movie.title);
+    
+    // Clear previous content
+    modalPoster.innerHTML = '';
+    modalPoster.style.backgroundImage = '';
+    modalPoster.style.backgroundColor = '';
 
-    const modalPosterTitle = modalPoster.querySelector('.modal-poster-title');
-    if (modalPosterTitle) {
-        modalPosterTitle.textContent = movie.title;
+    // If poster URL exists, use it as background image
+    if (movie.poster && movie.poster.trim() !== '') {
+        modalPoster.style.backgroundImage = `url('${movie.poster}')`;
+        modalPoster.style.backgroundSize = 'cover';
+        modalPoster.style.backgroundPosition = 'center';
     } else {
+        // Fallback to colored background with text
+        modalPoster.style.backgroundColor = stringToColor(movie.title);
+        
         const title = document.createElement('div');
         title.className = 'modal-poster-title';
         title.textContent = movie.title;
@@ -429,21 +438,31 @@ function displayMovies(movies) {
 
         const poster = document.createElement('div');
         poster.className = 'movie-poster';
-        poster.style.backgroundColor = stringToColor(movie.title);
 
-        const posterContent = document.createElement('div');
+        // If poster URL exists, use it as background image
+        if (movie.poster && movie.poster.trim() !== '') {
+            poster.style.backgroundImage = `url('${movie.poster}')`;
+            poster.style.backgroundSize = 'cover';
+            poster.style.backgroundPosition = 'center';
+        } else {
+            // Fallback to colored background with text
+            poster.style.backgroundColor = stringToColor(movie.title);
 
-        const posterTitle = document.createElement('div');
-        posterTitle.className = 'poster-title';
-        posterTitle.textContent = movie.title;
+            const posterContent = document.createElement('div');
 
-        const posterYear = document.createElement('div');
-        posterYear.className = 'poster-year';
-        posterYear.textContent = movie.year;
+            const posterTitle = document.createElement('div');
+            posterTitle.className = 'poster-title';
+            posterTitle.textContent = movie.title;
 
-        posterContent.appendChild(posterTitle);
-        posterContent.appendChild(posterYear);
-        poster.appendChild(posterContent);
+            const posterYear = document.createElement('div');
+            posterYear.className = 'poster-year';
+            posterYear.textContent = movie.year;
+
+            posterContent.appendChild(posterTitle);
+            posterContent.appendChild(posterYear);
+            poster.appendChild(posterContent);
+        }
+
         movieCard.appendChild(poster);
         moviesGrid.appendChild(movieCard);
     });
