@@ -20,7 +20,7 @@ const movieDatabase = {
         { title: "School of Rock", year: 2003, director: "Richard Linklater", poster: "https://image.tmdb.org/t/p/w300/bpHv9Cy2fJWyKv8T71Vvacq6ydM.jpg", description: "A wannabe rock star poses as a substitute teacher and forms a band with his students." },
         { title: "Booksmart", year: 2019, director: "Olivia Wilde", poster: "https://image.tmdb.org/t/p/w300/micaVOa1UZsdzs4fKGA67ZMGOzc.jpg", description: "Two academic overachievers realize they should have worked less and played more on their last day of high school." },
         { title: "The Apartment", year: 1960, director: "Billy Wilder", poster: "https://image.tmdb.org/t/p/w300/ht3HrI91D38Y9c4FudIDculXt18.jpg", description: "A charming romantic comedy about a man who lends his apartment to his bosses for affairs." },
-        { title: "Singin' in the Rain", year: 1952, director: "Gene Kelly", poster: "https://image.tmdb.org/t/p/w300/w03EiJVHP8Un77DNka eta5sTEo.jpg", description: "A joyous musical celebrating the transition from silent films to talkies in Hollywood." },
+        { title: "Singin' in the Rain", year: 1952, director: "Gene Kelly", poster: "https://image.tmdb.org/t/p/w300/w03EiJVHP8Un77DNkaeta5sTEo.jpg", description: "A joyous musical celebrating the transition from silent films to talkies in Hollywood." },
         { title: "Roman Holiday", year: 1953, director: "William Wyler", poster: "https://image.tmdb.org/t/p/w300/8lI9dmz2FNVZnyaRQWWC05yRqtT.jpg", description: "A princess escapes her duties for a day of adventure with a charming reporter in Rome." },
         { title: "Some Like It Hot", year: 1959, director: "Billy Wilder", poster: "https://image.tmdb.org/t/p/w300/hVIKyTK15y8opr6XVjzhsoDFVXO.jpg", description: "Two musicians disguise themselves as women to escape gangsters in this hilarious comedy." },
         { title: "Mamma Mia!", year: 2008, director: "Phyllida Lloyd", poster: "https://image.tmdb.org/t/p/w300/zKHv4J2E6RlEWEejNyWDyTUZWSz.jpg", description: "A bride-to-be invites three men to her wedding, each possibly being her father, in this ABBA-fueled musical." },
@@ -383,15 +383,31 @@ function showMovieDetails(movie) {
     modalPoster.style.backgroundImage = '';
     modalPoster.style.backgroundColor = '';
 
-    // If poster URL exists, use it as background image
+    // If poster URL exists, try to load it
     if (movie.poster && movie.poster.trim() !== '') {
-        modalPoster.style.backgroundImage = `url('${movie.poster}')`;
-        modalPoster.style.backgroundSize = 'cover';
-        modalPoster.style.backgroundPosition = 'center';
-    } else {
-        // Fallback to colored background with text
-        modalPoster.style.backgroundColor = stringToColor(movie.title);
+        // Create an image to test if it loads
+        const img = new Image();
+        img.onload = function() {
+            // Image loaded successfully, use it as background
+            modalPoster.style.backgroundImage = `url('${movie.poster}')`;
+            modalPoster.style.backgroundSize = 'cover';
+            modalPoster.style.backgroundPosition = 'center';
+        };
+        img.onerror = function() {
+            // Image failed to load, use fallback
+            modalPoster.style.backgroundColor = stringToColor(movie.title);
+            const title = document.createElement('div');
+            title.className = 'modal-poster-title';
+            title.textContent = movie.title;
+            modalPoster.appendChild(title);
+        };
+        img.src = movie.poster;
         
+        // Set initial background while loading
+        modalPoster.style.backgroundColor = stringToColor(movie.title);
+    } else {
+        // No poster URL, use fallback
+        modalPoster.style.backgroundColor = stringToColor(movie.title);
         const title = document.createElement('div');
         title.className = 'modal-poster-title';
         title.textContent = movie.title;
@@ -439,28 +455,27 @@ function displayMovies(movies) {
         const poster = document.createElement('div');
         poster.className = 'movie-poster';
 
-        // If poster URL exists, use it as background image
+        // If poster URL exists, try to load it
         if (movie.poster && movie.poster.trim() !== '') {
-            poster.style.backgroundImage = `url('${movie.poster}')`;
-            poster.style.backgroundSize = 'cover';
-            poster.style.backgroundPosition = 'center';
-        } else {
-            // Fallback to colored background with text
+            // Create an image to test if it loads
+            const img = new Image();
+            img.onload = function() {
+                // Image loaded successfully, use it as background
+                poster.style.backgroundImage = `url('${movie.poster}')`;
+                poster.style.backgroundSize = 'cover';
+                poster.style.backgroundPosition = 'center';
+            };
+            img.onerror = function() {
+                // Image failed to load, use fallback
+                createFallbackPoster(poster, movie);
+            };
+            img.src = movie.poster;
+            
+            // Set initial background while loading
             poster.style.backgroundColor = stringToColor(movie.title);
-
-            const posterContent = document.createElement('div');
-
-            const posterTitle = document.createElement('div');
-            posterTitle.className = 'poster-title';
-            posterTitle.textContent = movie.title;
-
-            const posterYear = document.createElement('div');
-            posterYear.className = 'poster-year';
-            posterYear.textContent = movie.year;
-
-            posterContent.appendChild(posterTitle);
-            posterContent.appendChild(posterYear);
-            poster.appendChild(posterContent);
+        } else {
+            // No poster URL, use fallback
+            createFallbackPoster(poster, movie);
         }
 
         movieCard.appendChild(poster);
@@ -468,6 +483,26 @@ function displayMovies(movies) {
     });
 
     results.classList.remove('hidden');
+}
+
+// Helper function to create fallback poster with text
+function createFallbackPoster(posterElement, movie) {
+    posterElement.style.backgroundColor = stringToColor(movie.title);
+    posterElement.style.backgroundImage = '';
+
+    const posterContent = document.createElement('div');
+
+    const posterTitle = document.createElement('div');
+    posterTitle.className = 'poster-title';
+    posterTitle.textContent = movie.title;
+
+    const posterYear = document.createElement('div');
+    posterYear.className = 'poster-year';
+    posterYear.textContent = movie.year;
+
+    posterContent.appendChild(posterTitle);
+    posterContent.appendChild(posterYear);
+    posterElement.appendChild(posterContent);
 }
 
 // Find films based on emotion(s)
