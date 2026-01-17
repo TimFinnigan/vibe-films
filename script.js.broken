@@ -73,19 +73,28 @@ const movieDatabase = {
         { title: "Amélie", year: 2001, director: "Jean-Pierre Jeunet", poster: "https://image.tmdb.org/t/p/w300/nSxDa3M9aMvGVLoItzWTepQ5h5d.jpg", description: "A whimsical waitress secretly improves the lives of those around her." },
         { title: "Groundhog Day", year: 1993, director: "Harold Ramis", poster: "https://image.tmdb.org/t/p/w300/gCgt1WARPZaXnq523ySQEUKinCs.jpg", description: "A weatherman relives the same day over and over." },
         { title: "Spirited Away", year: 2001, director: "Hayao Miyazaki", poster: "https://image.tmdb.org/t/p/w300/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg", description: "A girl must work in a magical bathhouse to free her parents from a curse." }
-    ]
-};
+    ],
+    sad: [
 
-// Keyword mapping for emotions
-const emotionKeywords = {
-    happy: ['happy', 'joyful', 'excited', 'cheerful', 'upbeat', 'elated', 'glad', 'good', 'great', 'amazing', 'wonderful'],
-    sad: ['sad', 'down', 'depressed', 'blue', 'heartbroken', 'sorrowful', 'upset', 'crying', 'devastated', 'grief'],
-    anxious: ['anxious', 'stressed', 'nervous', 'tense', 'worried', 'overwhelmed', 'panicked', 'on edge', 'frantic'],
-    melancholic: ['melancholic', 'bittersweet', 'wistful', 'pensive', 'lonely', 'empty', 'numb', 'distant', 'reflective'],
-    energetic: ['energetic', 'pumped', 'hyped', 'intense', 'adrenaline', 'wild', 'crazy', 'fired up', 'aggressive'],
-    nostalgic: ['nostalgic', 'reminiscent', 'yearning', 'sentimental', 'memories', 'past', 'missing', 'longing'],
-    contemplative: ['contemplative', 'thoughtful', 'philosophical', 'curious', 'questioning', 'deep', 'introspective', 'existential'],
-    weird: ['weird', 'strange', 'bizarre', 'surreal', 'odd', 'quirky', 'offbeat', 'trippy', 'wtf'],
+    ],
+    anxious: [
+
+    ],
+    melancholic: [
+
+    ],
+    energetic: [
+
+    ],
+    nostalgic: [
+
+    ],
+    contemplative: [
+
+    ],
+    weird: [
+
+    ],
     cozy: ['cozy', 'warm', 'comfortable', 'peaceful', 'calm', 'relaxed', 'chill', 'mellow', 'content'],
 };
 
@@ -167,27 +176,20 @@ function getRandomMovies(emotions, count = 8) {
 
     const selected = [];
 
-    // Filter movies with posters
-    const moviesWithPosters = allMovies.filter(movie =>
+    // Filter out recently used movies and movies without posters
+    const available = allMovies.filter(movie =>
+        !usedMovies.some(used => used.title === movie.title) &&
         movie.poster && movie.poster.trim() !== ''
     );
 
-    // Filter out recently used movies
-    let available = moviesWithPosters.filter(movie =>
-        !usedMovies.some(used => used.title === movie.title)
-    );
-
-    // If we don't have enough available, reset usedMovies but only once
-    if (available.length < count && available.length < moviesWithPosters.length) {
+    // If we've used too many, reset
+    if (available.length < count) {
         usedMovies = [];
-        available = [...moviesWithPosters];
+        return getRandomMovies(emotions, count);
     }
-
-    // Take what we can get - might be less than count if category is small
-    const selectCount = Math.min(count, available.length);
     
     // Randomly select movies
-    for (let i = 0; i < selectCount; i++) {
+    for (let i = 0; i < count && i < available.length; i++) {
         const randomIndex = Math.floor(Math.random() * available.length);
         selected.push(available[randomIndex]);
         available.splice(randomIndex, 1);
