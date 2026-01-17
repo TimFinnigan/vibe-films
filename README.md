@@ -40,7 +40,19 @@ A sleek, minimalist movie recommender web app that suggests films based on your 
 
 ## Live Demo
 
-Simply open `index.html` in any modern web browser.
+**GitHub Pages:** [https://timfinnigan.github.io/vibe-films/](https://timfinnigan.github.io/vibe-films/)
+
+Or simply open `index.html` in any modern web browser.
+
+## Deployment
+
+To enable GitHub Pages:
+1. Go to your repository settings on GitHub
+2. Navigate to "Pages" in the left sidebar
+3. Under "Build and deployment" → "Source", select "Deploy from a branch"
+4. Select branch: **main** and folder: **/ (root)**
+5. Click "Save"
+6. Your site will be live at `https://timfinnigan.github.io/vibe-films/` in a few minutes
 
 ## Credits
 
