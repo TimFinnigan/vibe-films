@@ -1,0 +1,17 @@
+# Temporary/backup files
+*.broken
+
+# Helper scripts (not needed for deployment)
+check-posters.js
+remove-404s.js
+invalid-posters.json
+
+# macOS
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
